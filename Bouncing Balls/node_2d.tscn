@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6irtrtvn0oq"]
+
+[ext_resource type="PackedScene" uid="uid://dqybuf670pq3" path="res://ball.tscn" id="1_xnlgb"]
+[ext_resource type="PackedScene" uid="uid://dojugj8cnltwl" path="res://platform.tscn" id="2_3s55i"]
+
+[node name="Main" type="Node2D"]
+
+[node name="ball" parent="." instance=ExtResource("1_xnlgb")]
+position = Vector2(755, -335)
+mass = 0.03
+
+[node name="Platform" parent="." instance=ExtResource("2_3s55i")]
+position = Vector2(833, 538)
+rotation = -0.506145
+
+[node name="Platform2" parent="." instance=ExtResource("2_3s55i")]
+position = Vector2(165, 485)
+rotation = 0.602139
+
+[node name="Platform3" parent="." instance=ExtResource("2_3s55i")]
+position = Vector2(477, 619)
+
+[node name="Platform4" parent="." instance=ExtResource("2_3s55i")]
+position = Vector2(1016, 257)
+rotation = -4.78744
+
+[node name="Platform5" parent="." instance=ExtResource("2_3s55i")]
+position = Vector2(8, 231)
+rotation = 1.5708
